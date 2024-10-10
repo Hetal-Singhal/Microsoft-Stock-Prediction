@@ -18,18 +18,18 @@ The dataset used includes the following features:
 - `Low`: Lowest stock price during the trading day.
 - `Close`: Stock closing price for the day.
 - `Volume`: Number of shares traded.
-- 
+  
 ## Visualization
 - used matplotlib and seaborn to visualize yearly trends.
-- 
+  
 ## ADF test
 - Stationarity in time series is a fundamental concept that refers to a time series where the statistical properties remain constant over time. The Augmented Dickey Fuller (ADF) test is a statistical test used to check if a time series is stationary.
 
 ## Feature Engineering
 Several feature engineering techniques were applied to improve model accuracy, including:
--Lag features to capture past stock prices as predictors for future values.
--Moving averages and rolling statistics to smooth out noise in the data.
--Trend and seasonality decomposition to analyze cyclical patterns in stock prices.
+- Lag features to capture past stock prices as predictors for future values.
+- Moving averages and rolling statistics to smooth out noise in the data.
+- Trend and seasonality decomposition to analyze cyclical patterns in stock prices.
 
 ## Models Used
 ### 1. **Prophet Model**
@@ -39,10 +39,10 @@ Several feature engineering techniques were applied to improve model accuracy, i
 - LSTM is a type of Recurrent Neural Network (RNN) well-suited for sequential data such as stock prices. It captures long-term dependencies in data and is effective for time-series prediction tasks.
 
 ### 3. ARIMA (AutoRegressive Integrated Moving Average)
-A traditional statistical model used for time series forecasting. ARIMA is effective for short-term stock price predictions, especially when dealing with linear trends and seasonality.
+- A traditional statistical model used for time series forecasting. ARIMA is effective for short-term stock price predictions, especially when dealing with linear trends and seasonality.
 
 ### 4. XGBoost
-A machine learning model known for its speed and performance in handling structured data. XGBoost is used here to capture non-linear patterns in the stock prices.
+- A machine learning model known for its speed and performance in handling structured data. XGBoost is used here to capture non-linear patterns in the stock prices.
 
 ## Installation
 ### Requirements:
